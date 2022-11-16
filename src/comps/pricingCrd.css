@@ -1,0 +1,11 @@
+.card{
+    width: 270px;
+    height: 70%;
+    opacity: 0.7;
+    z-index: 0;
+}
+.contact{
+    color: white;
+    background-color: #2c786c;
+    
+}

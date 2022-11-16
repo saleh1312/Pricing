@@ -1,4 +1,4 @@
-.image{
+.card{
     width: 270px;
     height: 70%;
     opacity: 0.7;
@@ -16,14 +16,24 @@
     transition: opacity 1000ms;
     
 }
-.imagec-enter-done{
-    
+
+.mybtn{
+    z-index: 10;
+    width: 100px;
+    height: 100px;
+    font-size:2cm;
+    color: white;
+    background-color: rgba(0, 0, 0,0);
+}
+.mybtn:focus {
+    outline: none;
+    box-shadow: none;
 }
 .right_btn{
-    transform: translateX(-50px);
-    z-index: 10;
+    transform: translateX(-400px);
+    
 }
 .left_btn{
-    transform: translateX(50px);
-    z-index: 10;
+    transform: translateX(400px);
+    
 }
